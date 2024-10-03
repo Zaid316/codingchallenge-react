@@ -1,0 +1,42 @@
+/* Login.css */
+body {
+    background-color: #f4f4f4; /* Light background color */
+  }
+  
+  .login-container {
+    max-width: 400px; /* Centered form width */
+    margin: 50px auto; /* Center form vertically */
+    padding: 20px; /* Inner spacing */
+    background: white; /* White background for form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .login-title {
+    text-align: center; /* Center title */
+    margin-bottom: 20px; /* Spacing below title */
+  }
+  
+  .login-form {
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Column direction */
+  }
+  
+  .login-input {
+    margin-bottom: 15px; /* Spacing between inputs */
+  }
+  
+  .login-button {
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Text color */
+    font-weight: bold; /* Bold text */
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .error-message {
+    margin-top: 10px; /* Space above error message */
+  }
+  
